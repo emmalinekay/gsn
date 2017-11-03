@@ -10,10 +10,6 @@ header {
   position: fixed;
 }
 
-header > div {
-  position: relative;
-}
-
 li, a {
   text-decoration: none;
   list-style: none;
@@ -25,5 +21,22 @@ li, a {
 
 #home, #about {
   height: 100vh;
-  margin-left: 13%;
+  margin-left: 14%;
+}
+
+.gsn-logo {
+  margin-top: 2%;
+}
+
+.logo-text {
+  float: right;
+  margin-top: 6%;
+  margin-right: 5%;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+hr {
+  border-width: thick;
+  margin-right: 2%;
 }
